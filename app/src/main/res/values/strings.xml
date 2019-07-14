@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="main_title">Welcome to ALC 4.0</string>
+    <string name="profile_link">MY PROFILE</string>
+    <string name="about_link">ABOUT ALC</string>
+    <string name="my_profile_name">My Profile</string>
+    <string name="about_alc_name">About ALC</string>
+    <string name="pp_desc">This is my profile picture</string>
+    <string name="my_name">Ikeanyi Chiedozie</string>
+    <string name="name_hint">type my name here</string>
+    <string name="track_text">Track: Android</string>
+    <string name="country_text">Country: Nigeria</string>
+    <string name="email_text">Email: ikeanyi.chiedozie@gmail.com</string>
+    <string name="phone_text">Phone Number: 2348060943306 </string>
+    <string name="slack_text">Slack username: Dozie</string>
+    <string name="web_url">https://andela.com/alc/</string>
+</resources>

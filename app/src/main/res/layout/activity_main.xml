@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Welcome_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin8"
+        android:layout_marginLeft="@dimen/margin8"
+        android:layout_marginTop="@dimen/margin16"
+        android:layout_marginEnd="@dimen/margin8"
+        android:layout_marginRight="@dimen/margin8"
+        android:text="@string/main_title"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="@dimen/text_size30"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/alc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin16"
+        android:layout_marginLeft="@dimen/margin16"
+        android:layout_marginTop="@dimen/margin96"
+        android:layout_marginEnd="@dimen/margin16"
+        android:layout_marginRight="@dimen/margin16"
+        android:background="#FFC107"
+        android:onClick="loadAboutPage"
+        android:padding="@dimen/padding10"
+        android:text="@string/about_link"
+        android:textSize="@dimen/text_size24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Welcome_text" />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin16"
+        android:layout_marginLeft="@dimen/margin16"
+        android:layout_marginTop="@dimen/margin48"
+        android:layout_marginEnd="@dimen/margin16"
+        android:layout_marginRight="@dimen/margin16"
+        android:background="#FFC107"
+        android:onClick="loadProfilePage"
+        android:padding="@dimen/padding10"
+        android:text="@string/profile_link"
+        android:textSize="@dimen/text_size24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alc_button" />
+</android.support.constraint.ConstraintLayout>
